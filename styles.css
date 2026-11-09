@@ -1,9 +1,12 @@
-body{
-  padding: 25px;
+body{  
+  min-height: 100vh;
+  margin: 0;
   background-color: antiquewhite;
   background-image: url("https://lh3.googleusercontent.com/drive-storage/AJQWtBMCeqLHnrsGJHeL1cBh2JKTSUUdvdz-WnCGXWxFOQ3ryDm_6y_M_zlDOCWL82JlmHw5TqDsm7G-LsWQtZ1TcVK7IHZZNZfwapO3I7Ut6TbdOJVPOQ=w1366-h633?auditContext=forDisplay" );
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-attachment: fixed;
 }
 .middle{
   background-color: rgba(245, 222, 178, 0.92);
