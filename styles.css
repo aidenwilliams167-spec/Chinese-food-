@@ -2,7 +2,7 @@ body{
   min-height: 100vh;
   margin: 0;
   background-color: antiquewhite;
-  background-image: url(Chinese-Culture-Festival-Booth.png);
+  background-image: url("./Chinese-Culture-Festival-Booth.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
