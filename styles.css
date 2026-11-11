@@ -1,6 +1,5 @@
 body{  
-  min-height: 0vh;
-  max-height: 30vh;
+  min-height: 100vh;
   margin: 0;
   background-color: antiquewhite;
   background-image: url("./Chinese Culture Festival Booth.png");
@@ -16,6 +15,7 @@ body{
   padding-top: 10px;
   padding-bottom: 20px;
   margin: 4em;
+  position: fixed;
   font-family:sans-serif;
 }
 td{
