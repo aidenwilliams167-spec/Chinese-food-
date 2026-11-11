@@ -18,6 +18,12 @@ body{
   position: fixed;
   font-family:sans-serif;
   box-shadow: 0px 4px 10px 0px black;
+ transition: transform 0.4s ease-in-out;
+}
+
+.middle:hover{
+  border: 1px solid black;
+  transform: scale(1.04);
 }
 td{
   background-color: rgb(203, 152, 100);
