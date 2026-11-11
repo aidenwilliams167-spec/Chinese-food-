@@ -27,53 +27,37 @@ body{
   transform: scale(1.04);
 }
 
-.image-col-one, .image-col-two, .image-col-three-image-col-four, .image-col-five{
-  position: relative;
-  }
 
-img{
+.image-col-one,
+.image-col-two,
+.image-col-three,
+.image-col-four,
+.image-col-five {
+  position: relative;
+}
+
+img {
   position: absolute;
-  top:100%;
+  top: 100%;
   left: 0;
   width: 250px;
   height: 150px;
+
   opacity: 0;
   visibility: hidden;
-  transition: opacity 0.3 ease;
-  z-index:10;
+
+  transition: opacity 0.3s ease;
+  z-index: 10;
 }
 
-.image-col-one:hover img{
+.image-col-one:hover img,
+.image-col-two:hover img,
+.image-col-three:hover img,
+.image-col-four:hover img,
+.image-col-five:hover img {
   opacity: 1;
+  visibility: visible;
   border: 2px solid salmon;
-  visibility: visible;
-}
-
-
-.image-col-two:hover img{
-  opacity: 1;
-  border: 2px solid salmon;
-  visibility: visible;
-
-}
-
-.image-col-three:hover img{
-  opacity: 1;
-  border: 2px solid salmon;
-  visibility: visible;
-  
-}
-
-image-col-four:hover img{
-  opacity: 1;
-  border: 2px solid salmon;
-  visibility: visible;
-}
-
-.image-col-five:hover img{
-  opacity: 1;
-  border: 2px solid salmon ;
-  visibility: visible;
 }
 
 
